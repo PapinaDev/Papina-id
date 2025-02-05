@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 194%;
+    height: 160%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none; 
+}
+
+
+.player-info {
+    background: radial-gradient(100.34% 104.36% at 29.44% -13.62%, #cfd6e6 0%, #4f9eda 0.50%, #324777 100%);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 15px rgba(13, 154, 236, 0.7);
+    border: 2px solid #09c2c2;
+}
+
+
+#player-id {
+    font-size: 18px;
+    color: #14b6b6; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
